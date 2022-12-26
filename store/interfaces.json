@@ -1,5 +1,14 @@
 {
-  "bullet-group": {
-    "component": "BulletGroup"
+  "list-context.bullet-group": {
+    "component": "BulletGroup",
+    "composition": "children",
+    "allowed": "*",
+    "content": {
+      "properties": {
+        "bullet": {
+          "$ref": "app:itgloberspartnercl.bullet-group/definitions/BulletGroup"
+        }
+      }
+    }
   }
 }
