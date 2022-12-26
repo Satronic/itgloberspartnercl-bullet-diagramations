@@ -1,0 +1,28 @@
+{
+  "definitions": {
+    "BulletGroup": {
+      "type": "array",
+      "title": "Bullet Group",
+      "items": {
+        "image": {
+          "title": "Image",
+          "$ref": "app:native-types#/definitions/url",
+          "default": "",
+          "widget": {
+            "ui-widget": "image-uploader"
+          }
+        },
+        "bulletTitle": {
+          "title": "Bullet Title",
+          "$ref": "app:native-types#/definitions/text",
+          "default": ""
+        },
+        "link": {
+          "title": "Bullet Link",
+          "$ref": "app:native-types#/definitions/link",
+          "default": ""
+        }
+      }
+    }
+  }
+}
