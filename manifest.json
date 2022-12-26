@@ -10,7 +10,12 @@
     "docs": "0.x",
     "store": "0.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vtex.native-types": "0.x",
+    "vtex.list-context": "0.x",
+    "vtex.device-detector": "0.x",
+    "vtex.ccs-handles": "0.x"
+  },
   "registries": [
     "smartcheckout"
   ],
