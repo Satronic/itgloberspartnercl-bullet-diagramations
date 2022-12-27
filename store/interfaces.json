@@ -6,7 +6,7 @@
     "content": {
       "properties": {
         "bullet": {
-          "$ref": "app:itgloberspartnercl.bullet-group/definitions/BulletGroup"
+          "$ref": "app:itgloberspartnercl.bullets-diagramation#/definitions/BulletGroup"
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "vendor": "itgloberspartnercl",
-  "name": "bullet-group",
+  "name": "bullets-diagramation",
   "version": "0.0.1",
   "title": "Bullet Group Component",
   "description": "This component allows to render a list of elements of a context in several views",
@@ -13,8 +13,7 @@
   "dependencies": {
     "vtex.native-types": "0.x",
     "vtex.list-context": "0.x",
-    "vtex.device-detector": "0.x",
-    "vtex.ccs-handles": "0.x"
+    "vtex.device-detector": "0.x"
   },
   "registries": [
     "smartcheckout"

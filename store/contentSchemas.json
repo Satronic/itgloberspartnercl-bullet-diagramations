@@ -6,7 +6,7 @@
       "items": {
         "image": {
           "title": "Image",
-          "$ref": "app:native-types#/definitions/url",
+          "$ref": "app:vtex.native-types#/definitions/url",
           "default": "",
           "widget": {
             "ui-widget": "image-uploader"
@@ -14,12 +14,12 @@
         },
         "bulletTitle": {
           "title": "Bullet Title",
-          "$ref": "app:native-types#/definitions/text",
+          "$ref": "app:vtex.native-types#/definitions/text",
           "default": ""
         },
         "link": {
           "title": "Bullet Link",
-          "$ref": "app:native-types#/definitions/link",
+          "$ref": "app:vtex.native-types#/definitions/link",
           "default": ""
         }
       }
