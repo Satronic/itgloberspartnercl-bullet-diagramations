@@ -5,7 +5,7 @@
       "title": "Bullet Group",
       "items": {
         "properties": {
-          "image": {
+          "bulletImage": {
             "title": "Image",
             "$ref": "app:vtex.native-types#/definitions/url",
             "default": "",
