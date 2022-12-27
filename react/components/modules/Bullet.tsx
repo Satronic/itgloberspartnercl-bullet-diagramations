@@ -23,4 +23,18 @@ const Bullet = ({
   )
 }
 
+Bullet.schema = {
+  title: 'Bullet',
+  type: 'object',
+  properties: {
+    image: {
+      title: 'Bullet Image',
+      type: 'string',
+      widget: {
+        'ui:widget': 'image-uploader',
+      }
+    }
+  }
+}
+
 export default Bullet;
