@@ -30,7 +30,7 @@ const BulletGroup = ({
         <div>{bulletsList}</div>
       </div>
       :
-      <div>
+      <div className='ba'>
         <p>Desktop</p>
         <div>{bulletsList}</div>
       </div>
