@@ -1,0 +1,43 @@
+.bullet__container {
+  display: flex;
+  overflow: auto;
+}
+
+.bullet__container::-webkit-scrollbar {
+  height: 0.5rem;
+  margin: 1rem;
+}
+
+.bullet__container::-webkit-scrollbar-track {
+  background-color: #ccc;
+  height: 0.5rem;
+  margin: 1rem;
+}
+
+.bullet__container::-webkit-scrollbar-thumb {
+  background-color: #ff652e;
+  width: 20px;
+}
+
+
+.bullet__item {
+  display: inline-block;
+  width: 10em;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.bullet__item--title {
+  text-align: center;
+}
+
+.bullet__item--link {
+  text-decoration: none;
+}
+
+/* Phone View */
+@media screen and (max-width: 623px) {
+  .bullet__item {
+    min-width: 20%;
+  }
+}

@@ -3,7 +3,7 @@ import { Link } from 'vtex.render-runtime';
 import { useCssHandles } from 'vtex.css-handles'
 import { LinkProps } from '../BulletGroup/BulletTypes';
 
-import './Bullet.css';
+import './styles.css';
 
 type BulletProps = {
   title: string,
@@ -25,7 +25,6 @@ const Bullet = ({
   ];
 
   const handles = useCssHandles(CSS_HANDLES);
-  console.log('Handles: ', handles);
 
   return (
     <div className={`ma3 pa2 ${handles['bullet__item']}`}>
